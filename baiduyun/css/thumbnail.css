@@ -1,0 +1,16 @@
+.fileList { padding-left:18px; height:900px;}
+.fileList .file { width:147px; padding:6px 0; height:124px;}
+.fileList .file .fileIcon {width:92px; height:92px; position:relative; background:url("../img/gridIcon_7165cae.png") no-repeat; margin-left:24px;  border:2px solid transparent;}
+.fileList .file .checkbox {position:absolute; top:0px; left:-2px; width:18px; height:16px; }
+.fileList .file .checkbox input {opacity:0;}
+.fileList .file .checkbox.active {background:url(../img/checkbox_aea6cfd.png) no-repeat 0 -44px;}
+.fileList .file .checkbox.checked {background:url(../img/checkbox_aea6cfd.png) no-repeat -38px -44px;}
+.fileList .file .folder {background-position:16px -80px;}
+.fileList .file .file_name {display:none; width:100%; line-height:28px;color:#6c6c6c; text-align:center;}
+.fileList .file .file_name.active {display:block;}
+.fileList .file .fileIcon.active { border:2px solid #2e82dc; }
+.fileList .alter {/*position:absolute; left:0; bottom:0;*/ margin-top:10px; display:none;}
+.fileList .alter.active {display:block;}
+.fileList .alter input {float:left; width:88px; height:24px; margin-left:5px; border:1px solid #d2d2d2;}
+.fileList .alter a {float:left; width:22px; height:21px; margin:3px 0 0 3px; background:url("../img/alter-btn.png") no-repeat;}
+.fileList .alter .cancel {background-position:-25px 0;}

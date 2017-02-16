@@ -1,0 +1,2272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户界面</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/user.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/header.js"></script>
+</head>
+<body>
+<div id="header" class="clear">
+    <a href="index.html" class="logo fl"><img src="img/logo.jpg"></a>
+    <div id="nav" class="fl">
+        <ul class="nav clear">
+            <li><a href="user.html">主页</a></li>
+            <li class="skyDrive">
+                <a href="javascript:;">网盘<span class="icon close"></span></a>
+                <div class="sdNav">
+                    <ul class="clear">
+                        <li>
+                            <a href="yunfile.html">
+                                <em></em>
+                                <p>网盘</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>通讯录</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>通讯记录</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>短信</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>相册</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>文章</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>记事本</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>手机找回</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <em></em>
+                                <p>云直播</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="">分享</a></li>
+            <li><a href="">应用</a></li>
+        </ul>
+    </div>
+    <div class="header_right fr">
+        <a href="" class="activity">企业版试用免费限量抢</a>
+        <a href="" class="vipCenter">会员中心</a>
+        <a href="" class="download">客户端下载</a>
+        <a href="" class="inform">通知</a>
+        <a href="javascript:;" class="more">更多<span class="icon close"></span></a>
+        <div class="more_nav">
+            <ul>
+                <li><a href="">移动开放平台</a></li>
+                <li><a href="">收藏工具</a></li>
+                <li><a href="">版本更新</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="">问题反馈</a></li>
+                <li><a href="">服务协议</a></li>
+                <li><a href="">权利声明</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="userAside" class="fl">
+    <ul class="userAside_op">
+        <li>
+            <a class="o_button" href="">
+                <span>
+                    <em class="icon icon_status"></em>
+                    <span>分享动态</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+                 <span>
+                    <em class="icon icon_myshare"></em>
+                    <span>我的分享</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_inform"></em>
+                    <span>通知</span>
+                </span>
+            </a>
+        </li>
+    </ul>
+    <ul class="userAside_app">
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_yunFile"></em>
+                    <span>网盘</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_list"></em>
+                    <span>通讯录</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_callLog"></em>
+                    <span>通话记录</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_message"></em>
+                    <span>短信</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_album"></em>
+                    <span>相册</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_article"></em>
+                    <span>文章</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_notepad"></em>
+                    <span>记事本</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_pFinder"></em>
+                    <span>手机找回</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="">
+               <span>
+                    <em class="icon icon_live"></em>
+                    <span>云直播</span>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="userMain" class="fr">
+    <div id="content">
+        <div class="c_share clear">
+            <div class="s_userInfo fr">
+                <dl class="clear">
+                    <dt class="fl"><img src="img/person.jpg" alt=""></dt>
+                    <dd>
+                        <a href="">0</a>
+                        <span>分享</span>
+                    </dd>
+                    <dd>
+                        <a href="">0</a>
+                        <span>专辑</span>
+                    </dd>
+                    <dd>
+                        <a href="">0</a>
+                        <span>订阅</span>
+                    </dd>
+                    <dd>
+                        <a href="">0</a>
+                        <span>粉丝</span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="s_nav fr" >
+                 <ul class="clear">
+                     <li>
+                         <a href="">
+                             <em></em>
+                             <span>分享专辑</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             <em></em>
+                             <span>分享图片</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             <em></em>
+                             <span>分享视频</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             <em></em>
+                             <span>分享文档</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             <em></em>
+                             <span>分享音乐</span>
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             <em></em>
+                             <span>分享其他</span>
+                         </a>
+                     </li>
+                 </ul>
+            </div>
+        </div>
+        <div class="c_tabMenu">
+            <a href="javascript:;">全部</a>
+            <a href="javascript:;">专辑</a>
+            <a href="javascript:;">图片</a>
+            <a href="javascript:;">视频</a>
+            <a href="javascript:;">文档</a>
+            <a href="javascript:;">音乐</a>
+            <a href="javascript:;" class="active">其他</a>
+        </div>
+        <div class="c_tabCon clear">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="c_tabCon clear">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>我知道为什么了</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/3c7fba26.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="c_tabCon clear">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>lalalalaallla</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>文字怎么叠加起来了</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/ee30d640.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="c_tabCon clear">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>我国航天技术又进步了~</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/751f8e35.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="c_tabCon clear">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/8c26bd46.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="c_tabCon clear">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/8d5be93e.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="c_tabCon clear active">
+            <div class="hot fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        热门资源
+                    </strong>
+                    <div class="buttons fr">
+                        <span class="active">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>6</span>
+                        <span>7</span>
+                        <span>8</span>
+                    </div>
+                </h2>
+                <div class="pic_list">
+                    <ul class="clear">
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/6.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/7.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/0.jpg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span>睡前故事1000则【建议先转存哦】</span>
+                                <img src="img/hot/4.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="like fl">
+                <h2 class="clear">
+                    <strong class="fl">
+                        <i></i>
+                        猜你喜欢
+                    </strong>
+                    <a class="change fr" href="javascript:;">换一换</a>
+                </h2>
+
+                <ul class="active">
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a3e65f0f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/aa899a3f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/29b91d41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/999ac54c.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/50424c4f.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>火鸡总动员账号</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/99f64623.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>折纸阿布</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>折纸控，微博控，爱写字儿，爱生活的阿布</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/1ca62a41.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>整容日记Movie</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                    <li>
+                        <div class="img fl">
+                            <a href="">
+                                <img src="img/like/a5126921.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="text fl">
+                            <h3>乔布简历</h3>
+                            <span><i></i>订阅</span>
+                        </div>
+                        <p>TA还木有个人说明呢</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

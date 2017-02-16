@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/thumbnail.css" id="cssSwitch">
+    <script src="js/header.js"></script>
+    <script src="js/yunfile5.js"></script>
+</head>
+<body>
+<!-- 新建文件夹的时候，默认的文件夹名字是新建文件夹，如果已经存在名为新建文件夹的文件夹了，那么新建的时候默认名字为新建文件夹（2），点勾的时候判断这一级是否有同名文件名，有同名的就不让创建，否则就创建 -->
+
+
+<div id="header" class="clear">
+    <a href="index.html" class="logo fl"><img src="img/logo.jpg"></a>
+    <div id="nav" class="fl">
+        <ul class="nav clear">
+            <li><a href="user.html">主页</a></li>
+            <li class="skyDrive">
+                <a href="javascript:;">网盘<span class="icon close"></span></a>
+                <div class="sdNav">
+                    <ul class="clear">
+                        <li>
+                            <a href="yunfile.html">
+                                <em></em>
+                                <p>网盘</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>通讯录</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>通讯记录</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>短信</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>相册</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>文章</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>记事本</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>手机找回</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <em></em>
+                                <p>云直播</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="javascript:;">分享</a></li>
+            <li><a href="javascript:;">应用</a></li>
+        </ul>
+    </div>
+    <div class="header_right fr">
+        <a href="" class="activity">企业版试用免费限量抢</a>
+        <a href="" class="vipCenter">会员中心</a>
+        <a href="" class="download">客户端下载</a>
+        <a href="" class="inform">通知</a>
+        <a href="javascript:;" class="more">更多<span class="icon close"></span></a>
+        <div class="more_nav">
+            <ul>
+                <li><a href="">移动开放平台</a></li>
+                <li><a href="">收藏工具</a></li>
+                <li><a href="">版本更新</a></li>
+                <li><a href="">帮助中心</a></li>
+                <li><a href="">问题反馈</a></li>
+                <li><a href="">服务协议</a></li>
+                <li><a href="">权利声明</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="layoutAside fl">
+    <ul>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>全部文件</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>图片</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>文档</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>视频</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>种子</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>音乐</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>其他</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>我的分享</span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a class="o_button" href="javascript:;">
+                <span>
+                    <em class="icon"></em>
+                    <span>回收站</span>
+                </span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="layoutMain fl">
+    <div class="lyNav clear">
+        <div class="sys fl">
+            <a href="javascript:;" class="o_button">
+                <span class="o_button_right">
+                    <em class="icon upload"></em>
+                    <span class="text">上传</span>
+                </span>
+            </a>
+            <a href="javascript:;" class="o_button">
+                <span class="o_button_right">
+                    <em class="icon create"></em>
+                    <span class="text">新建文件夹</span>
+                </span>
+            </a>
+            <a href="javascript:;" class="o_button">
+                <span class="o_button_right">
+                    <em class="icon delete"></em>
+                    <span class="text">删除</span>
+                </span>
+            </a>
+            <a href="javascript:;" class="o_button">
+                <span class="o_button_right">
+                    <em class="icon rename"></em>
+                    <span class="text">重命名</span>
+                </span>
+            </a>
+        </div>
+        <ul class="list_switch fr">
+            <li class="list"></li>
+            <li class="thumbnail active"></li>
+        </ul>
+    </div>
+    <div class="crumb">
+        <div class="crumb_nav">
+            <a href="javascript:;" class="back">返回上一级</a>
+            <em>|</em>
+            <a href="javascript:;" class="totalFile">全部文件</a>
+            <span class="bread"></span>
+        </div>
+        <span>已全部加载，共<em class="count">5</em>个</span>
+    </div>
+    <div class="checkAll">
+        <span>
+            <input type="checkbox" />
+            文件名
+        </span>
+        <span>大小</span>
+        <span>修改日期</span>
+    </div>
+    <div class="fileList">
+        <!-- <div class="file fl">            
+            <div class="fileIcon folder"> 
+                <span class="checkbox">
+                </span>
+            </div>
+            <a class="file_name" href="javascript:;">gg</a>
+            <div class="alter clear active">
+                <input name="" value="" type="text">
+                <a class="sure" href="javascript:;"></a>
+                <a class="cancel" href="javascript:;"></a>
+            </div>
+        </div> -->
+    </div>
+    <div id="shadow"></div>
+    <div id="dragCount"></div>
+    <ul id="operation">
+        <li class="clear">查看（V）<em>></em>
+            <ul>
+                <li>列表</li>
+                <li>缩略图</li>
+            </ul>
+        </li>
+        <li class="clear">排列方式（O）<em>></em></li>
+        <li>刷新（E）</li>
+        <li>重新加载页面（R）</li>
+        <li>新建文件夹</li>
+        <li>增值服务</li>
+    </ul>
+</div>
+</body>
+</html>

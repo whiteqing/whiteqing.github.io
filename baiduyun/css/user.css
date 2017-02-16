@@ -1,0 +1,80 @@
+/*样式重置(reset)*/
+body, h1, h2, h4, h4, h5, h6, p, dl, dd, ul, ol, form, input, textarea, th, td, select { margin:0; padding:0 }
+em { font-style:normal; }
+li { list-style:none; }
+a { text-decoration:none; }
+img { border:none; vertical-align:top;}
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:14px; font-family:'微软雅黑';}
+
+/*public*/
+.clear { zoom:1; }
+.clear:after { content:""; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+
+/*header*/
+#header {width:1349px; height:50px; background:#252525; }
+#header .logo {display:inline-block; width:133px; height:50px; text-align:center; margin-right:15px;}
+#header .logo img {margin-top:5px;}
+#nav>ul {width:360px;}
+#nav ul li {float:left;}
+#nav .nav>li {width:90px; height:50px; line-height:50px; text-align:center;}
+#nav .nav>li a {color:#efffff; font-size:16px; display:inline-block; width:100%;}
+#nav .nav>li:nth-of-type(1) {background:#0f0f0f;}
+#nav .nav .skyDrive {position:relative;}
+#nav .nav .skyDrive .sdNav {position:absolute; width:642px; height:96px; top:46px; left:-90px; background:#f8f8fa; border-radius:3px;
+    z-index:100; box-shadow:0px 3px 2px #979696; display:none;}
+.skyDrive .sdNav li {width:65px; height:54px; margin:21px 0; }
+.skyDrive .sdNav li a {display:inline-block; height:100%; line-height:20px; text-align:center;}
+.skyDrive .sdNav li em {display:inline-block; width:35px; height:35px; background:url("../img/navs_icon.jpg") no-repeat; }
+.skyDrive .sdNav li p {font-size:12px; color:#333335;}
+.sdNav ul li:nth-of-type(2) em {background-position:-35px 0;}
+.sdNav ul li:nth-of-type(3) em {background-position:-70px 0;}
+.sdNav ul li:nth-of-type(4) em {background-position:-105px 0;}
+.sdNav ul li:nth-of-type(5) em {background-position:-140px 0;}
+.sdNav ul li:nth-of-type(6) em {background-position:-175px 0;}
+.sdNav ul li:nth-of-type(7) em {background-position:-210px 0;}
+.sdNav ul li:nth-of-type(8) em {background-position:-245px 0;}
+.sdNav ul li:nth-of-type(9) em {background-position:-280px 0;}
+#header .icon {display:inline-block; width:9px; height:8px; background:url("../img/sprite_1.png") no-repeat; margin-left:7px;}
+#header .close {background-position: -2px -546px;}
+#header .open {background-position: -2px -573px;}
+.header_right {position:relative;}
+.header_right a {font-size:12px; line-height:50px; color:#d0d0d0;}
+.header_right a.activity {color:#e75c00;}
+.header_right a.vipCenter {display:inline-block; width:70px; height:24px; line-height:24px; border-radius:2px; margin:0 8px; background:#fe0000; text-align:center;}
+.header_right a.download,.header_right a.inform,.header_right a.more { margin:0 10px; }
+.header_right .more_nav {position:absolute; top:42px; right:0; z-index:100; display:none;}
+.header_right .more_nav ul {position:relative; width:90px; height:246px; padding:12px; border:1px solid #afafaf; border-radius:2px; box-shadow:0px 2px 4px #afafaf; background:#f6f6f8; }
+.header_right .more_nav:before {content:""; display:block; position:absolute; border:7px solid transparent; top:-13px; right:6px; z-index:101; border-bottom-color:#f6f6f8;}
+.header_right .more_nav li { text-align:center;}
+.header_right .more_nav li:hover {border-bottom:2px solid #eaeaec;}
+.header_right .more_nav a {color:#808082; font-size:12px; line-height:33px;}
+
+/*userAside*/
+#userAside {width:144px; height:618px; background:#3d3d3d;}
+#userAside ul {width:100%;}
+#userAside ul a>span {display:inline-block; margin-left:15px;}
+#userAside ul li a {display:inline-block; width:100%; line-height:34px; color:#fff; font-size:12px;}
+#userAside em {display:inline-block; }
+.userAside_op {padding:23px 0 10px; border-bottom:1px solid #4d4d4d;}
+.userAside_op .icon {width:15px; height:15px; background:url("../img/frame-icon.png") no-repeat; margin-right:14px;}
+.userAside_app .icon {width:21px; height:20px; background:url("../img/aside-app-icon.png") no-repeat; margin:0 9px -6px 0;}
+.userAside_op .icon_status {background-position:0 -49px;}
+.userAside_op .icon_myshare {background-position:0 -69px;}
+.userAside_op .icon_inform {background-position:0 -89px;}
+.userAside_app .icon_yunFile {background-position:0 0;}
+.userAside_app .icon_list {background-position:0 -22px;}
+.userAside_app .icon_callLog {background-position:0 -296px;}
+.userAside_app .icon_message {background-position:0 -110px;}
+.userAside_app .icon_album {background-position:0 -44px;}
+.userAside_app .icon_article {background-position:0 -243px;}
+.userAside_app .icon_notepad {background-position:0 -88px;}
+.userAside_app .icon_pFinder {background-position:0 -132px;}
+.userAside_app .icon_live {background-position:0 -154px;}
+
+/*userMain*/
+#userMain {width:1205px; height:618px; background:#ededef;}
