@@ -1,0 +1,45 @@
+/* reset */
+body,ul,p,h1,a,span{padding:0; margin:0; font-family:arial;}
+li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+body{background:lightgreen; font-size:14px; font-family:"serif","微软雅黑";}
+
+/* public */
+.clear {zoom:1;}
+.clear:after {content:""; display:block; clear:both;}
+.fl { float:left;}
+.fr { float:right; }
+
+/* list */
+.list {width:333px; height:485px; background:#fff; margin:50px auto; padding:14px 15px 9px 19px;}
+.itemHead {height:30px; margin:11px 0;}
+.itemHead>span {display:inline-block; width:5px; height:30px; background:#8bcc00;}
+.itemHead h1 {display:inline-block; font-size:26px; font-family:"幼圆"; color:#323232; letter-spacing:1px; height:26px; line-height:26px; margin:2px 9px 0 10px;}
+.btn a {display:inline-block; width:30px; height:30px;}
+.icon-play {background:url("img/iconbg.png") no-repeat; background-position:0 0;}
+.icon-add {background:url("img/iconbg.png") no-repeat; background-position:-40px 0; margin-left:6px;}
+.tab {height:30px; margin-top:4px;}
+.tab span {display:inline-block; margin:0px 3px -3px 3px; color:#d8d8d8; height:12px; width:1px; background:#d8d8d8; /*border-left:1px solid #d8d8d8;*/}
+.tab a { font-size:12px; color:#0f820c; }
+.tab .active { color:#333333; font-weight:bold;}
+.list_song li {height:36px; line-height:36px; }
+.list_song li.active { border-bottom:1px dashed #e1e1e1; box-sizing:border-box;}
+.songInfo {letter-spacing:1px;}
+.songInfo .songInfo_name {color:#0f820c;}
+.songInfo .songInfo_name.active {color:#05b600;}
+.songInfo .songInfo_name em {font-style:normal; width:12px; display:inline-block; height:16px; overflow:hidden; text-align:left;line-height:22px; text-indent:-6px; margin-left:2px;}
+.songInfo .songInfo_artist {color:#515151;}
+.songTime {color:#8b8b8b; font-size:12px;}
+.songIcon {display:none;}
+.songIcon a{display:inline-block; width:14px; height:12px;}
+.songIcon a:nth-of-type(1) {background:url("img/iconbg.png") no-repeat 0px -31px;}
+.songIcon a:nth-of-type(2) {background:url("img/iconbg.png") no-repeat -19px -31px;}
+.songIcon a:nth-of-type(3) {background:url("img/iconbg.png") no-repeat -38px -31px;}
+.songIcon a:nth-of-type(4) {background:url("img/iconbg.png") no-repeat -57px -31px;}
+.songIcon a:nth-of-type(5) {background:url("img/iconbg.png") no-repeat -76px -31px;}
+
+
+
+
+
