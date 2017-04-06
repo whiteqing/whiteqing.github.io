@@ -32,7 +32,7 @@ window.onload = function(){
 
     // 默认
     var def = {    	
-    	fname:[],				// 存放是默认名字的文件夹
+    	fname:[],				// 存放默认名字的文件夹
     	name:'新建文件夹',
     	setName:function(){		// 创建一个文件夹，判断这个文件夹的默认名字是什么
 		if(def.fname.length == 0){
