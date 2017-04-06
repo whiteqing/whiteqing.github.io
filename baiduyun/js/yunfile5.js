@@ -3,39 +3,39 @@ window.onload = function(){
     moreNav();
 
     var data = [
-			{
-				id:0,
-				name:'gg',
-				pid:-1
-			},
-			{
-				id:1,
-				name:'新建文件夹',
-				pid:-1
-			},
-			{
-				id:2,
-				name:'毛毛',
-				pid:0  //表示父文件夹的id为0
-			},
-			{
-				id:3,
-				name:'sdddddd',
-				pid:0  //表示父文件夹的id为0
-			},
-			{
-				id:4,
-				name:'bb',
-				pid:2  //表示父文件夹的id为0
-			}
-    ];
+		{
+			id:0,
+			name:'gg',
+			pid:-1
+		},
+		{
+			id:1,
+			name:'新建文件夹',
+			pid:-1
+		},
+		{
+			id:2,
+			name:'毛毛',
+			pid:0  //表示父文件夹的id为0
+		},
+		{
+			id:3,
+			name:'sdddddd',
+			pid:0  //表示父文件夹的id为0
+		},
+		{
+			id:4,
+			name:'bb',
+			pid:2  //表示父文件夹的id为0
+		}
+    	];
 
     // 默认
     var def = {    	
     	fname:[],				// 存放是默认名字的文件夹
     	name:'新建文件夹',
     	setName:function(){		// 创建一个文件夹，判断这个文件夹的默认名字是什么
-    		if(def.fname.length == 0){
+		if(def.fname.length == 0){
 				return 1;
 			}else{
 				for(var i=0; i<def.fname.length; i++){
